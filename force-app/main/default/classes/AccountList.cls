@@ -1,4 +1,11 @@
-public without sharing class  AccountList { //comment new for push new new one
+/**
+ * @description       : test run to  execute actions in DevOps Center
+ * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @group             : Developer Group
+ * @last modified on  : 07-13-2023
+ * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+**/
+public without sharing class  AccountList { //This class is to test the github action for salesforce
     //Demo - Apexhoues
     @AuraEnabled(cacheable=true)
     public static List<Account> getAccountList() {
