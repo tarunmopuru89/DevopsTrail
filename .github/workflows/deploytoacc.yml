@@ -35,10 +35,10 @@ jobs:
                   fi
             # Authenticate acc
             - name: 'Authenticate Acc'
-              run: sfdx auth:sfdxurl:store -f ./ACC_SFDX_URL.txt -a meeraacc -d
+              run: sfdx auth:sfdxurl:store -f ./ACC_SFDX_URL.txt -a tarunacc -d
               
             # Deploy source to Acc org
             - name: 'Push source to Acc org'
-              run: sfdx force:source:deploy -u meeraacc@gmail.com -p force-app/main/default
+              run: sfdx force:source:deploy -u tarunmopuru@deloitte.com -p force-app/main/default
 
    
