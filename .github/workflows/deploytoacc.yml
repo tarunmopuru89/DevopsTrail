@@ -39,6 +39,6 @@ jobs:
               
             # Deploy source to Acc org
             - name: 'Push source to Acc org'
-              run: sfdx force:source:deploy -u tarunmopuru@deloitte.com -p force-app/main/default
+              run: sfdx force:source:deploy -u tarun.mopuru@deloitte.com -p force-app/main/default
 
    
